@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Carlos3108/erudio_udemy
+          uri: https://github.com/Carlos3108/erudio-config-service
           default-label: main
           search-paths:
           - 'greeting-service*'
