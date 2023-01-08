@@ -10,4 +10,4 @@ spring:
           uri: https://github.com/Carlos3108/erudio_udemy
           default-label: main
           search-paths:
-          - 'greeting-service-config*'
+          - 'greeting-service*'
