@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+greeting-service:
+  greeting: "Ciao"
+  default-value: "Mondo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
