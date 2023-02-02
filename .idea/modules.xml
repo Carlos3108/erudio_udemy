@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/config-server/config_server.iml" filepath="$PROJECT_DIR$/config-server/config_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/erudio_udemy.iml" filepath="$PROJECT_DIR$/.idea/erudio_udemy.iml" />
       <module fileurl="file://$PROJECT_DIR$/greeting-service/greeting-service.iml" filepath="$PROJECT_DIR$/greeting-service/greeting-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naming-server/naming-server.iml" filepath="$PROJECT_DIR$/naming-server/naming-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-calculator/rest-with-springboot-udemy.iml" filepath="$PROJECT_DIR$/rest-calculator/rest-with-springboot-udemy.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafio-matematica/rest-with-springboot-udemy (1).iml" filepath="$PROJECT_DIR$/desafio-matematica/rest-with-springboot-udemy (1).iml" />
     </modules>
