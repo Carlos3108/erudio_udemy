@@ -29,6 +29,15 @@ spring:
       fail-on-empty-beans: false
     default-property-inclusion: non_null
 resilience4j:
+  bulkhead:
+    instances:
+      default:
+        max-concurrent-calls: 10
+  rate-limiter:
+    instances:
+      default:
+        limit-for-period: 2
+        limit-refresh-period: 10s
   retry:
     instances:
       foo-bar:
