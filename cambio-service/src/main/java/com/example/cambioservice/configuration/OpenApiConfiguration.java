@@ -1,4 +1,4 @@
-package com.example.bookservice.configuration;
+package com.example.cambioservice.configuration;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
@@ -8,9 +8,9 @@ import io.swagger.v3.oas.models.info.License;
 import org.springframework.context.annotation.Bean;
 
 @OpenAPIDefinition(info =
-@Info(title = "Book Service API",
+@Info(title = "Cambio Service API",
         version = "v1",
-        description = "Documentation of Book Service API"))
+        description = "Documentation of Cambio Service API"))
 public class OpenApiConfiguration {
     @Bean
     public OpenAPI customOpenAPI(){
@@ -18,7 +18,7 @@ public class OpenApiConfiguration {
                 .components(new Components())
                 .info(
                         new io.swagger.v3.oas.models.info.Info()
-                                .title("Book Service API")
+                                .title("Cambio Service API")
                                 .version("v1")
                                 .license(
                                         new License()
